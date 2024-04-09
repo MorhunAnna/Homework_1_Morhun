@@ -19,9 +19,12 @@ public class Main {
         System.out.println("Before");
         System.out.println("a = " + a + "; b = " + b);
 
+        int d = b;
+        b = a;
+        a = d;
         System.out.println("After");
-        System.out.println("a = " + b + "; b = " + a);
-        
+        System.out.println("a = " + a + "; b = " + b);
+
         System.out.println("Task 3");
 
          int a1 = 5;
